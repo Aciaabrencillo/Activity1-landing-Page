@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ec768f;
+        }
+        
+        nav {
+            background-color:   #b8a158fa;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        nav li {
+            margin-right: 20px;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            color: #ccc;
+        }
+        
+        #hero {
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .hero-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        #hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        #hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        #hero button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        
+        #hero button:hover {
+            background-color: #555;
+        }
+        
+        #about {
+            padding: 2em;
+            background-color: #d65da0; 
+        }
+        
+        .about-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        #about h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        #about p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .features-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 2em;
+        }
+
+        .feature {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 0 300px;
+            text-align: center;
+        }
+
+        .feature i {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .cta {
+            background-color:  #d65da0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .cta form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cta label {
+            margin-bottom: 10px;
+        }
+
+        .cta input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 200px;
+        }
+
+        .cta button[type="submit"] {
+            background-color:  #8fb168;
+            color: #ffffff;
+            padding: 10px 20px; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cta button[type="submit"]:hover {
+            background-color: #b8a158fa;
+        }
+        
+        #footer {
+            background-color:   #b8a158fa;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        
+        .footer-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">Webiii</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>The Future of Web Development</h1>
+        <p>Explore the latest trends and advancements in web development</p>
+        <button>Learn More</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>What's Next in Web Development?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        <ul>
+            <li>Artificial Intelligence (AI)</li>
+            <li>Machine Learning (ML)</li>
+            <li>Internet of Things (IoT)</li>
+            <li>Progressive Web Apps (PWAs)</li>
+            <li>Single-Page Applications (SPAs)</li>
+            <li>Serverless Architecture</li>
+            <li>WebAssembly (WASM)</li>
+        </ul>
+    </section>
+    <section id="trends">
+        <h2>Current Trends in Web Development</h2>
+        <p>Stay ahead of the curve with the latest trends in web development</p>
+        <ul>
+            <li>Mobile-First Design</li>
+            <li>Responsive Web Design</li>
+            <li>Accessibility (a11y)</li>
+            <li>Performance Optimization</li>
+            <li>Security and Best Practices</li>
+        </ul>
+    </section>
+    
+    <section id="tools">
+        <h2>Essential Tools for Web Development</h2>
+        <p>Discover the tools that will take your web development skills to the next level</p>
+        <ul>
+            <li>Code Editors (VS Code, Atom, Sublime)</li>
+            <li>Version Control Systems (Git, SVN)</li>
+            <li>Package Managers (npm, yarn)</li>
+            <li>Build Tools (Webpack, Rollup)</li>
+            <li>Debugging Tools (Chrome DevTools, Firefox DevEdition)</li>
+        </ul>
+    </section>
+
+    <section class="cta">
+        <h2>Get Started Today!</h2>
+        <form id="sign-up-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2023 The Future of Web Development</p>
+        <p>Contact us: <a href="mailto:graciaabrencillo12345@gmail.com">graciaabrencillo12345@gmail.com</a></p>
+    </footer>
+
+    <script>
+        // Add event listener to button in Hero Section
+        document.getElementById('learn-more-btn').addEventListener('click', function() {
+          alert('Learn more about web development!');
+        });
+      
+        document.getElementById('sign-up-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent default form submission
+          const name = document.getElementById('name').value;
+          const email = document.getElementById('email').value;
+          const password = document.getElementById('password').value;
+      
+          // TO DO: Send form data to server-side script for processing
+          console.log(`Name: ${name}, Email: ${email}, Password: ${password}`);
+          alert(`Thank you for signing up, ${name}!`);
+        });
+      </script>
+</body>
+</html>
